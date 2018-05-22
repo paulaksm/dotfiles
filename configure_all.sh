@@ -7,6 +7,9 @@ sudo apt-get upgrade
 sudo apt-get install build-essential 
 sudo apt install vim python3-pip pinta screen git htop
 
+# PIP INSTALL
+sudo pip3 install numpy matplotlib pandas sklearn jupyter jupyterlab opencv-python
+
 # CONFIG VIM
 dd of=~/.vimrc << EOF
 set nu 
