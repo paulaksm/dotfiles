@@ -6,9 +6,13 @@ sudo apt-get upgrade
 
 sudo apt-get install build-essential 
 sudo apt install vim python3-pip pinta screen git htop
+sudo apt-get install texlive-latex-base 
+sudo apt-get install latex-beamer
+sudo apt-get install texlive-latex-extra
+sudo apt-get install texlive-fonts-extra
 
 # PIP INSTALL
-sudo pip3 install numpy matplotlib pandas sklearn jupyter jupyterlab opencv-python
+sudo pip3 install numpy matplotlib pandas sklearn jupyter jupyterlab opencv-python Pillow progress
 
 # CONFIG VIM
 dd of=~/.vimrc << EOF
