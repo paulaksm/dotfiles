@@ -10,6 +10,7 @@ sudo apt-get install texlive-latex-base
 sudo apt-get install latex-beamer
 sudo apt-get install texlive-latex-extra
 sudo apt-get install texlive-fonts-extra
+sudo apt install texlive-science
 
 # PIP INSTALL
 sudo pip3 install numpy matplotlib pandas sklearn jupyter jupyterlab opencv-python Pillow progress
