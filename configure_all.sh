@@ -15,6 +15,9 @@ sudo apt install texlive-science
 # PIP INSTALL
 sudo pip3 install numpy matplotlib pandas sklearn jupyter jupyterlab opencv-python Pillow progress
 
+# ADD VIM-ZEN 
+curl -o ~/.vim/autoload/zen.vim --create-dirs https://raw.githubusercontent.com/prakashdanish/vim-zen/master/zen.vim
+
 # CONFIG VIM
 dd of=~/.vimrc << EOF
 set nu 
